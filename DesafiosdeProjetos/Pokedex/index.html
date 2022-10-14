@@ -25,77 +25,20 @@
 <body>
     <section class="content">
         <h1>Pokedex</h1>
-        <ol class="pokemons">
-            <li class="pokemon">
-                <span class="number">#001</span>
-                <span class="name">Bulbasar</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grann</li>
-                        <li class="type">poisen</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasar">
-                </div>                
-            </li>
-            <li class="pokemon">
-                <span class="number">#002</span>
-                <span class="name">Ivysar</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grann</li>
-                        <li class="type">poisen</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg" alt="Ivysar">
-                </div>                
-            </li>
-            <li class="pokemon">
-                <span class="number">#003</span>
-                <span class="name">Venusar</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grann</li>
-                        <li class="type">poisen</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg" alt="Venusar">
-                </div>                
-            </li>
-            <li class="pokemon">
-                <span class="number">#004</span>
-                <span class="name">Charmander</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grann</li>
-                        <li class="type">poisen</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg" alt="Charmander">
-                </div>                
-            </li>
-            <li class="pokemon">
-                <span class="number">#005</span>
-                <span class="name">Charmeleon</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grann</li>
-                        <li class="type">poisen</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg" alt="Charmeleon">
-                </div>                
-            </li>
-            <li class="pokemon">
-                <span class="number">#006</span>
-                <span class="name">Charizard</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grann</li>
-                        <li class="type">poisen</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg" alt="Charizard">
-                </div>                
-            </li>
+        <ol class="pokemons" id="pokemonList">
         </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
+
     </section>
  
     <!--Nosso JS-->
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
