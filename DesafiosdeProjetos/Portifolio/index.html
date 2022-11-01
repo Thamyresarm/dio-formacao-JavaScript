@@ -28,19 +28,19 @@
 <body>
     <main class="main">
         <header class="header">
-            <img class="photo" src="https://avatars.githubusercontent.com/u/24790794?v=4"
-                alt="Foto de Thamyres Magalhães" />
+            <img class="photo" id="profile.photo" src="/assets/img/my-photo.png"
+                alt="Foto de Perfil" />
 
-            <h1 class="title">Olá,<br> eu sou a Thamyres Magalhães</h1>
+            <h1 class="title">Olá,<br> eu sou <span id="profile.name">Carregando...</span></h1>
             <div class="information">
-                <p class="job">Analista de Sistemas Jr</p>
-                <p class="location">Rio de Janeiro - RJ</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="email">
-                    <a href="mailto:thamyres_alves.14@hotmail.com">thamyres_alves.14@hotmail.com</a>
+                    <a href="mailto:ex@mail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
         </header>
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
@@ -48,25 +48,12 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Ferramentas conhecidas:</h3>
-                        <ul>
-                            <li>
-                                <img src="/assets/img/icons/tools/java.svg" alt="java" title="java">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/git.svg" alt="github" title="github">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/nodejs.svg" alt="nodejs" title="nodejs">
-                            </li>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                      </section>
                      <section class="personal">
                         <h3>Habilidades pessoais:</h3>
-                        <ul>
-                            <li>Facilidade de aprendizado</li>
-                            <li>Determinação</li>
-                            <li>Raciocínio Lógico</li>
-                            <li>Trabalho em equipe</li>
+                        <ul id="profile.skills.softSkills">
                         </ul>
                      </section>
                 </div>
@@ -77,10 +64,7 @@
                 <h2>Idiomas</h2>
             </button>
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
-                    <li>Espanhol</li>
+                <ul class="languages" id="profile.languages">
                 </ul>
             </div>
         </section>
@@ -89,15 +73,7 @@
                 <h2>Portifolio</h2>
             </button>
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title">Criando um app</h3>
-                        <a href="https://google.com" target="_blank">www.google.com</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Criando um app</h3>
-                        <a href="https://google.com" target="_blank">www.google.com</a>
-                    </li>
+                <ul class="portfolio" id="profile.portfolio">
                 </ul>
             </div>
         </section>
@@ -106,46 +82,14 @@
                 <h2>Experiência Profissional</h2>
             </button>
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Analista de Sistemas / NHJ do Brasil</h3>
-                        <span class="period">Jul 2013 - Outubro 2022</span>
-                        <p>
-                            - Prestar suporte ao usuário no sistema Sapiens, Rubi e Ronda nas atividades envolvendo os
-                            módulos: faturamento, financeiro, compras, contabilidade, comercial, ponto eletrônico,
-                            produção, almoxarifado, expedição e cobrança.
-                            - Atuar com instalação e atualização de sistemas / softwares;
-                            - Elaboração de relatórios;
-                            - Analise de melhorias nas rotinas do sistema;
-                            - Criação de tutoriais;
-                            - Criação de fluxogramas;
-                            - Suporte ao banco de dados ORACLE;
-                            - Criação e Manutenção de Dashboards em Power BI;
-                            - Suporte a LSP (Linguagem Sênior de Programação);
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="title">Analista de Sistemas / NHJ do Brasil</h3>
-                        <span class="period">Jul 2013 - Outubro 2022</span>
-                        <p>
-                            - Prestar suporte ao usuário no sistema Sapiens, Rubi e Ronda nas atividades envolvendo os
-                            módulos: faturamento, financeiro, compras, contabilidade, comercial, ponto eletrônico,
-                            produção, almoxarifado, expedição e cobrança.
-                            - Atuar com instalação e atualização de sistemas / softwares;
-                            - Elaboração de relatórios;
-                            - Analise de melhorias nas rotinas do sistema;
-                            - Criação de tutoriais;
-                            - Criação de fluxogramas;
-                            - Suporte ao banco de dados ORACLE;
-                            - Criação e Manutenção de Dashboards em Power BI;
-                            - Suporte a LSP (Linguagem Sênior de Programação);
-                        </p>
-                    </li>
+                <ul class="experience" id="profile.experiences">                    
                 </ul>
             </div>
         </section>
     </main>
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
