@@ -6,7 +6,7 @@ const maxRecords = 248
 
 function ConvertPokemonToLi(pokemon) {
     return `
-        <li class="pokemon ${pokemon.type}">
+        <li onclick="details(${pokemon.number})" class="pokemon ${pokemon.type}">
             <span class="number">${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
             <div class="detail">
@@ -25,6 +25,11 @@ function loadPokemonItens(offset, limit) {
     })
 }
 
+function details(pokemonNumber){
+    console.log(pokemonNumber)
+    window.location.href = "./details.html";
+}
+
 loadPokemonItens(offset,limit)
 
 loadMoreButton.addEventListener('click', () => {
@@ -40,3 +45,4 @@ loadMoreButton.addEventListener('click', () => {
     }
     
 })
+
