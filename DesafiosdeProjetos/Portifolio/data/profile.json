@@ -59,6 +59,36 @@
     ],
     "portfolio": [
         {
+           "name": "Projetos Imersão Alura",
+           "url": "https://github.com/Thamyresarm/projetos-Imersao-alura",
+           "github": true
+        },
+        {
+           "name": "Semana Frontend DIO - Mundo Invertido",
+           "url": "https://github.com/Thamyresarm/dio-semana-frontend-mundo-invertido",
+           "github": true
+         },
+        {
+           "name": "NLW e-Sports Trilha Explorer - Rocketseat",
+           "url": "https://github.com/Thamyresarm/rocketseat-nlw-projeto-TrilhaExplorer",
+           "github": true
+         },
+        {
+           "name": "Posicionando Elementos com Flexbox em CSS - DIO",
+           "url": "https://github.com/Thamyresarm/curso-dio-css-flexbox",
+           "github": true
+         },
+        {
+           "name": "Introdução JS ToDo List - DIO",
+           "url": "https://github.com/Thamyresarm/curso-dio-introducao-js",
+           "github": true
+         },
+        {
+           "name": "Manipulando DOM - DIO",
+           "url": "https://github.com/Thamyresarm/curso-dio-manipulando-DOM",
+           "github": true
+         },
+        {
             "name": "Curso Realizado na DIO para a criação de uma Pokedex",
             "url": "https://github.com/Thamyresarm/dio-formacao-JavaScript/tree/main/DesafiosdeProjetos/Pokedex",
             "github": true
