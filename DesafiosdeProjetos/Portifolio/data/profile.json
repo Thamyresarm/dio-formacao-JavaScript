@@ -9,39 +9,39 @@
         "hardSkills": [
             {
                 "name": "Nodejs",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/nodejs.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/nodejs.png"
             },
             {
                 "name": "Html",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/html.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/html.png"
             },
             {
                 "name": "CSS",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/css.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/css.png"
             },
             {
                 "name": "Mysql",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/mysql.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/mysql.png"
             },
             {
                 "name": "Docker",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/docker.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/docker.png"
             },
             {
                 "name": "VSCode",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/vscode.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/vscode.png"
             },
             {
                 "name": "Java",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/java.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/java.png"
             },
             {
                 "name": "Git",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/git.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/git.png"
             },
             {
                 "name": "Github",
-                "logo": "https://github.com/Thamyresarm/dio-formacao-JavaScript/blob/main/DesafiosdeProjetos/Portifolio/data/imgs/github.png"
+                "logo": "https://raw.githubusercontent.com/Thamyresarm/dio-formacao-JavaScript/main/DesafiosdeProjetos/Portifolio/data/imgs/github.png"
             }
         ],
         "softSkills": [
