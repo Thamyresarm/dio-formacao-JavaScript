@@ -72,7 +72,12 @@
            "name": "NLW e-Sports Trilha Explorer - Rocketseat",
            "url": "https://github.com/Thamyresarm/rocketseat-nlw-projeto-TrilhaExplorer",
            "github": true
-         },
+        },
+        {
+           "name": "Curso Realizado na DIO para a criação de uma Pokedex",
+           "url": "https://github.com/Thamyresarm/dio-formacao-JavaScript/tree/main/DesafiosdeProjetos/Pokedex",
+           "github": true
+        },
         {
            "name": "Posicionando Elementos com Flexbox em CSS - DIO",
            "url": "https://github.com/Thamyresarm/curso-dio-css-flexbox",
@@ -82,23 +87,13 @@
            "name": "Introdução JS ToDo List - DIO",
            "url": "https://github.com/Thamyresarm/curso-dio-introducao-js",
            "github": true
-         },
-        {
-           "name": "Manipulando DOM - DIO",
-           "url": "https://github.com/Thamyresarm/curso-dio-manipulando-DOM",
-           "github": true
-         },
-        {
-            "name": "Curso Realizado na DIO para a criação de uma Pokedex",
-            "url": "https://github.com/Thamyresarm/dio-formacao-JavaScript/tree/main/DesafiosdeProjetos/Pokedex",
-            "github": true
         },
         {
-            "name": "Curso Realizado na DIO para a criação de uma página de portfolio",
-            "url": "https://github.com/Thamyresarm/dio-formacao-JavaScript/tree/main/DesafiosdeProjetos/Portifolio",
+            "name": "Manipulando DOM - DIO",
+            "url": "https://github.com/Thamyresarm/curso-dio-manipulando-DOM",
             "github": true
-        }
-    ],
+       }
+        ],
     "professionalExperience": [
         {
             "name": "Analista de Sistemas / Marco Zero Tecnologia",
