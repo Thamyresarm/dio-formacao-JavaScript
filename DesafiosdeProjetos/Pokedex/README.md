@@ -2,7 +2,7 @@
 
 🔗 [Clique aqui pra acessar](https://thamyresarm.github.io/dio-formacao-JavaScript/DesafiosdeProjetos/Pokedex/index.html)
 
-![image](https://user-images.githubusercontent.com/24790794/200014737-b502265d-33b2-461e-b10b-75ffe3af69ea.png)
+![image](https://user-images.githubusercontent.com/24790794/200016954-f31f3dd4-bbce-4e7f-a6f5-3ede545e3799.png)
 
 ## Autor
 
