@@ -1,4 +1,4 @@
-# Projeto Portfólio
+# Projeto Pokedex
 
 🔗 [Clique aqui pra acessar](https://thamyresarm.github.io/dio-formacao-JavaScript/DesafiosdeProjetos/Pokedex/index.html)
 
